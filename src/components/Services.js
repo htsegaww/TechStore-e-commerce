@@ -72,13 +72,19 @@ const Services = () => {
       <div className="section-center">
         <article className="header">
           <h3>
-            Custom Furniture <br />
+            Custom your Devices <br />
             Built Only For You
           </h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            doloremque iusto molestiae perspiciatis sapiente maiores tempore
-            odit eveniet architecto dolorem.
+            At our Tech website, we go beyond offering exceptional products. We
+            pride ourselves on delivering unparalleled service to our valued
+            customers. Our knowledgeable team is dedicated to assisting you at
+            every step, from product selection to delivery and beyond. Whether
+            you need guidance on choosing the perfect piece or require expert
+            advice on optimizing your choice, our friendly professionals are
+            here to ensure a seamless and enjoyable shopping experience. Trust
+            us to provide personalized attention and comprehensive support as we
+            help you to get the best possible device.
           </p>
         </article>
         <div className="services-center">

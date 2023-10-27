@@ -1,8 +1,32 @@
 import React from "react";
 import styled from "styled-components";
 import { PageHero } from "../components";
-import aboutImg from "../assets/heroImage1.jpeg";
-
+import aboutImg from "../assets/about.JPG";
+const AboutPage = () => {
+  return (
+    <main>
+      <PageHero title="about" />
+      <Wrapper className="page section section-center">
+        <img src={aboutImg} alt="nice desk" />
+        <article>
+          <div className="title">
+            <h2>our story</h2>
+            <div className="underline"></div>
+          </div>
+          <p>
+            The company was founded by Henok Tsegaw, in 2013. Since then,
+            TechStore has been producing various tech devices, from computers to
+            wearables. TechStore is among the job creators in the united states
+            with two million jobs in all 50 states. TechStore is one of the most
+            popular tech companies in the industry and it will continue to be
+            the most popular technology store in the world. we provide easy to
+            use and affordable technology devices in the united states.
+          </p>
+        </article>
+      </Wrapper>
+    </main>
+  );
+};
 const Wrapper = styled.section`
   display: grid;
   gap: 4rem;
@@ -30,27 +54,4 @@ const Wrapper = styled.section`
     grid-template-columns: 1fr 1fr;
   }
 `;
-
-const AboutPage = () => {
-  return (
-    <main>
-      <PageHero title="about" />
-      <Wrapper className="page-section section-center">
-        <img src={aboutImg} alt="desk" />
-        <article>
-          <div className="title">
-            <h2>Our Story</h2>
-            <div className="underline"></div>
-          </div>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
-            qui quibusdam harum eaque eligendi et enim natus a beatae illum,
-            quae earum, quas, aspernatur ab. Suscipit aperiam facilis inventore
-            atque.
-          </p>
-        </article>
-      </Wrapper>
-    </main>
-  );
-};
 export default AboutPage;

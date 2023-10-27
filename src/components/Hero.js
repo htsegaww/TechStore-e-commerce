@@ -19,6 +19,10 @@ const Wrapper = styled.section`
     color: var(--clr-grey-5);
     font-size: 1rem;
   }
+
+  span {
+    color: var(--clr-primary-5);
+  }
   @media (min-width: 992px) {
     height: calc(100vh - 5rem);
     grid-template-columns: 1fr 1fr;
@@ -71,12 +75,13 @@ const Hero = () => {
     <Wrapper className="section-center">
       <article className="content">
         <h1>
-          Design your <br /> comfort zone
+          Every Product is
+          <br /> <span>special</span>
         </h1>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-          distinctio aperiam repudiandae libero repellat incidunt totam tenetur!
-          Ratione, veritatis explicabo?
+          TechStore is an American multinational technology company specializing
+          in Internet-related services and products. These include online
+          advertising technologies, search, cloud computing, and software.
         </p>
         <Link to="/products" className="btn hero-btn">
           Shop Now
